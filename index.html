@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Nike Slider</title>
+</head>
+
+<body>
+    <!------- Header ------->
+    <header class="header">
+        <!-------Nav----------->
+        <nav class="nav container">
+            <div class="logo">
+                <a href="">
+                    <span>Nike</span><img src="icons/nike-logo.svg" alt="logo">
+                </a>
+            </div>
+
+            <div class="menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">MEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">WOMEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">KIDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="" class="cart">
+                <img src="./icons/shopping-bag.svg" alt="cart">
+            </a>
+            <div class="hamburger">
+                <img src="./icons/menu.svg" alt="menu">
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <!---------NIKE SHOE----------->
+            <div class="shoe">
+                <div class="shoe-figure"></div>
+                <div>
+                    <img class="shoe-img" src="./images/pic1.png" alt="nike shoe image">
+                </div>
+
+                <div class="dots">
+                    <span class="dot dot-color-1 active"></span>
+                    <span class="dot dot-color-2"></span>
+                </div>
+            </div>
+
+
+            <!------------INFO------------------>
+            <div class="info">
+
+                <div class="shoe-info">
+                    <span class="info-subtitle">Nike</span>
+                    <h1 class="info-title">Air Max Motion 270</h1>
+                    <p class="info-description">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+
+                <div class="info-down">
+                    <div class="size">
+                        <h3 class="size-title">Total</h3>
+                        <div class="size-content">
+                            <div class="size-total active">8.6</div>
+                            <div class="size-total">8.6</div>
+                            <div class="size-total">8.6</div>
+                        </div>
+                    </div>
+
+                    <div class="count">
+                        <h3 class="count-title">Count</h3>
+                        <div class="count-content">
+                            <span>-</span>
+                            <span>1</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="price">
+                    <span class="price-title">$99.99</span>
+                    <a href="" class="price-button">ADD TO CART</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
